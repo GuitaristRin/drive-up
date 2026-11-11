@@ -24,17 +24,3 @@ Android 课表应用。Kotlin + Jetpack Compose + Room，MVVM，Metro 风格磁�
 2. `local.properties` 的 `sdk.dir` 指向本机 Android SDK（文件不入库，各机器自备）。
 
 架构、数据模型、界面规格见 [BUILD.md](BUILD.md)；给编码代理的约束见 [CLAUDE.md](CLAUDE.md)。
-
-## 隐私与密钥
-
-以下内容**永不入库**（`.gitignore` 已锁死，别用 `git add -f` 绕过）：
-
-- `app/keystore.jks`、`*.jks`、`*.keystore` —— 发布签名
-- `local.properties` —— 本机 SDK 路径
-- `202513253075*.xls` —— 课表原表，文件名含学号、内容含真实姓名，仅作本机导入样本
-- `*.hprof` —— JVM 堆转储，可能含内存中的个人信息
-
-## 历史
-
-源码原在 t14p（Arch）`~/projects/drive-up`，2026-11-11 迁到本仓。迁移时丢弃了
-2.27 GB 的 `java_pid*.hprof` 与 `.gradle/`、`build/`、`app/build/`，只保留 70 个源文件。
