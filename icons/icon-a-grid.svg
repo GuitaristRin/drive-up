@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0078D7"/>
+
+  <!-- Time column -->
+  <rect x="48" y="88" width="56" height="344" fill="#005EA6"/>
+
+  <!-- Header row -->
+  <rect x="104" y="88" width="360" height="56" fill="#1A8FE8"/>
+  <!-- Today (Wednesday) header highlight -->
+  <rect x="248" y="88" width="72" height="56" fill="white"/>
+
+  <!-- Horizontal grid lines -->
+  <rect x="48" y="143" width="416" height="2" fill="white" fill-opacity="0.25"/>
+  <rect x="48" y="239" width="416" height="2" fill="white" fill-opacity="0.25"/>
+  <rect x="48" y="335" width="416" height="2" fill="white" fill-opacity="0.25"/>
+  <rect x="48" y="431" width="416" height="2" fill="white" fill-opacity="0.25"/>
+
+  <!-- Vertical grid lines -->
+  <rect x="103" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+  <rect x="175" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+  <rect x="247" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+  <rect x="319" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+  <rect x="391" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+  <rect x="463" y="88" width="2" height="344" fill="white" fill-opacity="0.25"/>
+
+  <!-- Course blocks -->
+  <!-- Mon rows 1-2: green -->
+  <rect x="106" y="146" width="68" height="188" fill="#2EBD6B"/>
+
+  <!-- Tue row 1: red-pink -->
+  <rect x="178" y="146" width="68" height="92" fill="#E04F5F"/>
+
+  <!-- Wed rows 1-2 (today): bright white -->
+  <rect x="250" y="146" width="68" height="188" fill="white"/>
+
+  <!-- Thu row 3: amber -->
+  <rect x="322" y="338" width="68" height="92" fill="#F4C430"/>
+
+  <!-- Fri rows 2-3: purple -->
+  <rect x="394" y="242" width="68" height="188" fill="#8B5CF6"/>
+
+  <!-- Section labels (tiny ticks) -->
+  <rect x="58" y="183" width="20" height="2" fill="white" fill-opacity="0.6"/>
+  <rect x="58" y="279" width="20" height="2" fill="white" fill-opacity="0.6"/>
+  <rect x="58" y="375" width="20" height="2" fill="white" fill-opacity="0.6"/>
+
+  <!-- Today dot in header -->
+  <circle cx="284" cy="116" r="8" fill="#0078D7"/>
+</svg>

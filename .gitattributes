@@ -1,0 +1,11 @@
+# 换行归一：仓内一律 LF；只有 Windows 批处理用 CRLF。
+# 否则 core.autocrlf=true 会把 gradlew 签出成 CRLF，Linux 上 shebang 直接失效。
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制，别猜
+*.jar binary
+*.png binary
+*.xls binary
+*.hprof binary

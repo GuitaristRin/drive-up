@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#F3F3F3"/>
+
+  <!-- Calendar body shadow hint -->
+  <rect x="56" y="72" width="400" height="368" fill="#E0E0E0"/>
+
+  <!-- Calendar body -->
+  <rect x="48" y="64" width="400" height="368" fill="white"/>
+
+  <!-- Calendar header bar — Metro blue -->
+  <rect x="48" y="64" width="400" height="88" fill="#0078D7"/>
+
+  <!-- Header: month label (three white bars = text placeholder) -->
+  <rect x="80"  y="92" width="120" height="12" fill="white" fill-opacity="0.9"/>
+  <rect x="80" y="112" width="80"  height="8"  fill="white" fill-opacity="0.5"/>
+
+  <!-- Ring holes -->
+  <rect x="148" y="48" width="20" height="40" fill="#E0E0E0"/>
+  <rect x="336" y="48" width="20" height="40" fill="#E0E0E0"/>
+
+  <!-- Day-of-week column headers -->
+  <rect x="56"  y="152" width="48" height="28" fill="#F3F3F3"/>
+  <rect x="112" y="152" width="48" height="28" fill="#F3F3F3"/>
+  <rect x="168" y="152" width="48" height="28" fill="#F3F3F3"/>
+  <rect x="224" y="152" width="48" height="28" fill="#0078D7"/>  <!-- Today col -->
+  <rect x="280" y="152" width="48" height="28" fill="#F3F3F3"/>
+  <rect x="336" y="152" width="48" height="28" fill="#F3F3F3"/>
+  <rect x="392" y="152" width="48" height="28" fill="#F3F3F3"/>
+
+  <!-- Grid rows — 3 rows of course blocks -->
+  <!-- Row 1 -->
+  <rect x="56"  y="188" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="112" y="188" width="48" height="64" fill="#2EBD6B"/>
+  <rect x="168" y="188" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="224" y="188" width="48" height="64" fill="#0078D7"/>  <!-- Today -->
+  <rect x="280" y="188" width="48" height="64" fill="#E04F5F"/>
+  <rect x="336" y="188" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="392" y="188" width="48" height="64" fill="#E8F4FD"/>
+
+  <!-- Row 2 -->
+  <rect x="56"  y="260" width="48" height="64" fill="#F4C430"/>
+  <rect x="112" y="260" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="168" y="260" width="48" height="64" fill="#8B5CF6"/>
+  <rect x="224" y="260" width="48" height="64" fill="#0078D7"/>  <!-- Today -->
+  <rect x="280" y="260" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="336" y="260" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="392" y="260" width="48" height="64" fill="#F4C430"/>
+
+  <!-- Row 3 -->
+  <rect x="56"  y="332" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="112" y="332" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="168" y="332" width="48" height="64" fill="#E04F5F"/>
+  <rect x="224" y="332" width="48" height="64" fill="#0078D7"/>  <!-- Today -->
+  <rect x="280" y="332" width="48" height="64" fill="#2EBD6B"/>
+  <rect x="336" y="332" width="48" height="64" fill="#E8F4FD"/>
+  <rect x="392" y="332" width="48" height="64" fill="#E8F4FD"/>
+
+  <!-- Bottom edge of calendar -->
+  <rect x="48" y="396" width="400" height="36" fill="#FAFAFA"/>
+</svg>
